@@ -113,7 +113,7 @@ class Hangman:
     # game_over() method
     def game_over(self):
         """ Method that will stop the game and print game over..."""
-        print(f"You could not guess but the word was: {' '.join(self.word_to_find)}!"
+        print(f"You could not guess but the word was: {' '.join(self.word_to_find)}!")
         sys.exit('Game Over......try again')
 
     # well_played() method
