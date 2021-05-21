@@ -62,23 +62,7 @@ class Hangman:
 
     # play method
     def play(self):
-        """ Method that asks the player to enter only a single letter. If the
-        player guessed a letter well, it is added to the well_guessed_letters
-        list. If not, it is added to the wrongly_guessed_letters list and the
-        error_count increases by 1."""
-
-        """
-        while True:
-            self.letter_entered: chr = input('Enter only a single letter:')
-            if (self.letter_entered.isalpha() is False) or (len(self.letter_entered) != 1):
-                print('Input does not meets specifications. Enter again.')
-
-            elif (self.letter_entered.lower() in Hangman.wrongly_guessed_letters) or (
-                    self.letter_entered.lower() in self.correctly_guessed_letters):
-                print('Input already entered. Enter a new letter.')
-
-            else:
-                """
+        
         self.letter_entered: chr = input('Enter only a single letter: ')
         self.letter_entered = self.letter_entered.lower()
         if (self.letter_entered.isalpha() is False) or (len(self.letter_entered) != 1):
