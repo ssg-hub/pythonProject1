@@ -122,9 +122,6 @@ class Hangman:
         print(f"You found the word: {' '.join(self.word_to_find)} in {Hangman._turn_count} turns with {Hangman._error_count} errors!")
         sys.exit()
 
-hangman = Hangman()
-hangman.start_game()
-
 
 
 
