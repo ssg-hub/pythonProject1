@@ -32,9 +32,9 @@ class Hangman:
         self.mystery_word: List[str] = random.choice(Hangman.possible_words)
         self.word_to_find: List[str] = list(self.mystery_word)
         self.correctly_guessed_letters: List[str] = [] * len(self.word_to_find)
-        print(self.mystery_word, end=' ')
-        for each in self.word_to_find: print(each, end="  "),
-        print('\n')
+        #print(self.mystery_word, end=' ')
+        #for each in self.word_to_find: print(each, end="  "),
+        #print('\n')
 
     # start_game() method
     def start_game(self):
