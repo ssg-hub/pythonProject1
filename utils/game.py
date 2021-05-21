@@ -25,6 +25,10 @@ class Hangman:
     possible_words: List[str] = ['gamer', 'classic', 'guess', 'brussels',
                 'data', 'innovate', 'future', 'learner', 'becode', 'learning',
                 'mathematics', 'sessions', 'paperless', 'artificial']
+        
+    print('....Welcome....')
+    print('Get ready to play HANGMAN')
+    print("You'll now be asked to enter i.e. guess the letters of a mystery word")
 
 
     def __init__(self):
