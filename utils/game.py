@@ -117,7 +117,7 @@ class Hangman:
                 error_count and turn_count at the end of each turn.
         """
         while True:
-            os.system('clear')  # clears the screen
+           
             self.play()
 
             if sorted(self.correctly_guessed_letters[:len(self.word_to_find)]) == \
